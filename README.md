@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'GMD', { apiKey: 'art_live_...' });
 {
   bank: 'cbg',
   name: 'Central Bank of The Gambia',
-  rate_date: '2026-09-09',   // Central Bank of The Gambia's own publication date
+  rate_date: '2026-09-25',   // Central Bank of The Gambia's own publication date
   source: 'USD',
   target: 'GMD',
-  rate: 72.69,
+  rate: 72.6,
   rate_type: 'indicative',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbg',
   name: 'Central Bank of The Gambia',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "GMD", "type": "indicative", "value": 72.69 },
+    { "base": "USD", "quote": "GMD", "type": "indicative", "value": 72.6 },
     // … the rest of the published table (32 currencies vs GMD)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'central-bank-of-the-gambia-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'GMD', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'GMD', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'GMD',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 72.69, rate_type: 'indicative', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 72.6, rate_type: 'indicative', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'

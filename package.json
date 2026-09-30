@@ -1,6 +1,6 @@
 {
   "name": "central-bank-of-the-gambia-exchange-rate",
-  "version": "1.3.1",
+  "version": "1.3.3",
   "description": "Official Central Bank of The Gambia (The Gambia) daily exchange rates — 32 currencies vs GMD, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "cbg",
