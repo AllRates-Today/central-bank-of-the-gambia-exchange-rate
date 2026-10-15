@@ -42,42 +42,42 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by Central Bank of The Gambia — 32 rates. Updated 2026-10-14.
+Published **2026-10-15** by Central Bank of The Gambia — 32 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | GMD | indicative | 19.91 |
-| AUD | GMD | indicative | 51.05 |
-| BRL | GMD | indicative | 14.63 |
-| CAD | GMD | indicative | 51.43 |
-| CHF | GMD | indicative | 97.63 |
-| CNY | GMD | indicative | 10.92 |
-| DKK | GMD | indicative | 10.9491 |
+| AED | GMD | indicative | 19.94 |
+| AUD | GMD | indicative | 50.93 |
+| BRL | GMD | indicative | 14.53 |
+| CAD | GMD | indicative | 51.29 |
+| CHF | GMD | indicative | 90.42 |
+| CNY | GMD | indicative | 10.94 |
+| DKK | GMD | indicative | 10.8945 |
 | EGP | GMD | indicative | 1.38 |
-| EUR | GMD | indicative | 85.32 |
-| GBP | GMD | indicative | 97.63 |
-| GHS | GMD | indicative | 6.23 |
-| GNF | GMD | indicative | 0.0084 |
-| HKD | GMD | indicative | 9.32 |
+| EUR | GMD | indicative | 83.67 |
+| GBP | GMD | indicative | 96.94 |
+| GHS | GMD | indicative | 6.2 |
+| GNF | GMD | indicative | 0.0082 |
+| HKD | GMD | indicative | 9.33 |
 | INR | GMD | indicative | 0.77 |
-| JPY | GMD | indicative | 0.4616 |
-| KWD | GMD | indicative | 234.52 |
+| JPY | GMD | indicative | 0.461 |
+| KWD | GMD | indicative | 234.59 |
 | LKR | GMD | indicative | 0.22 |
-| NGN | GMD | indicative | 0.06 |
-| NOK | GMD | indicative | 7.6783 |
-| NZD | GMD | indicative | 41.05 |
-| PHP | GMD | indicative | 1.17 |
-| SAR | GMD | indicative | 19.5 |
+| NGN | GMD | indicative | 0.05 |
+| NOK | GMD | indicative | 7.6628 |
+| NZD | GMD | indicative | 40.79 |
+| PHP | GMD | indicative | 1.16 |
+| SAR | GMD | indicative | 19.53 |
 | SEK | GMD | indicative | 7.3306 |
-| SGD | GMD | indicative | 57.12 |
-| SLE | GMD | indicative | 3.21 |
-| THB | GMD | indicative | 2.18 |
+| SGD | GMD | indicative | 56.9 |
+| SLE | GMD | indicative | 3.18 |
+| THB | GMD | indicative | 2.17 |
 | TRY | GMD | indicative | 1.48 |
-| TWD | GMD | indicative | 2.27 |
-| USD | GMD | indicative | 73.11 |
-| XDR | GMD | indicative | 99.28 |
-| XOF | GMD | indicative | 0.127218 |
-| ZAR | GMD | indicative | 4.43 |
+| TWD | GMD | indicative | 2.28 |
+| USD | GMD | indicative | 73.22 |
+| XDR | GMD | indicative | 99.04 |
+| XOF | GMD | indicative | 0.126562 |
+| ZAR | GMD | indicative | 4.4 |
 
 Source: [Official rates published by CBG, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbg/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
