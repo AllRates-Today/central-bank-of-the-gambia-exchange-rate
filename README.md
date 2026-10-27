@@ -47,33 +47,42 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-21 by Central Bank of The Gambia (the API currently flags this table as stale) — 23 rates. Updated 2026-10-27.</summary>
+<summary>Table as text: published 2026-10-27 by Central Bank of The Gambia — 32 rates. Updated 2026-10-27.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | GMD | indicative | 19.65 |
-| AUD | GMD | indicative | 50.54 |
-| CHF | GMD | indicative | 89 |
-| DKK | GMD | indicative | 10.8429 |
-| EGP | GMD | indicative | 1.33 |
-| EUR | GMD | indicative | 84.78 |
-| GBP | GMD | indicative | 95.91 |
-| GHS | GMD | indicative | 6.15 |
-| GNF | GMD | indicative | 0.0081 |
-| HKD | GMD | indicative | 9.19 |
-| KWD | GMD | indicative | 232.93 |
+| AED | GMD | indicative | 19.74 |
+| AUD | GMD | indicative | 50.88 |
+| BRL | GMD | indicative | 13.32 |
+| CAD | GMD | indicative | 51.68 |
+| CHF | GMD | indicative | 89.5 |
+| CNY | GMD | indicative | 10.87 |
+| DKK | GMD | indicative | 10.8435 |
+| EGP | GMD | indicative | 1.29 |
+| EUR | GMD | indicative | 84.09 |
+| GBP | GMD | indicative | 96.53 |
+| GHS | GMD | indicative | 6.21 |
+| GNF | GMD | indicative | 0.0082 |
+| HKD | GMD | indicative | 9.24 |
+| INR | GMD | indicative | 0.76 |
+| JPY | GMD | indicative | 0.4601 |
+| KWD | GMD | indicative | 233.34 |
 | LKR | GMD | indicative | 0.22 |
-| NOK | GMD | indicative | 7.673 |
-| NZD | GMD | indicative | 41.01 |
-| PHP | GMD | indicative | 1.14 |
-| SAR | GMD | indicative | 19.24 |
-| SEK | GMD | indicative | 7.2867 |
+| NGN | GMD | indicative | 0.05 |
+| NOK | GMD | indicative | 7.7711 |
+| NZD | GMD | indicative | 41.19 |
+| PHP | GMD | indicative | 1.13 |
+| SAR | GMD | indicative | 19.33 |
+| SEK | GMD | indicative | 7.2819 |
+| SGD | GMD | indicative | 56.6 |
+| SLE | GMD | indicative | 3.17 |
 | THB | GMD | indicative | 2.15 |
 | TRY | GMD | indicative | 1.46 |
-| USD | GMD | indicative | 72.16 |
-| XDR | GMD | indicative | 97.79 |
-| XOF | GMD | indicative | 0.127028 |
-| ZAR | GMD | indicative | 4.4 |
+| TWD | GMD | indicative | 2.23 |
+| USD | GMD | indicative | 72.5 |
+| XDR | GMD | indicative | 98.26 |
+| XOF | GMD | indicative | 0.127112 |
+| ZAR | GMD | indicative | 4.36 |
 
 </details>
 
