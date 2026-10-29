@@ -47,42 +47,42 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of The Gambia — 32 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Central Bank of The Gambia — 32 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | GMD | indicative | 19.71 |
-| AUD | GMD | indicative | 50.92 |
-| BRL | GMD | indicative | 13.56 |
-| CAD | GMD | indicative | 51.56 |
+| AED | GMD | indicative | 19.83 |
+| AUD | GMD | indicative | 51.24 |
+| BRL | GMD | indicative | 13.54 |
+| CAD | GMD | indicative | 51.88 |
 | CHF | GMD | indicative | 89.5 |
-| CNY | GMD | indicative | 10.86 |
-| DKK | GMD | indicative | 10.7921 |
-| EGP | GMD | indicative | 1.29 |
-| EUR | GMD | indicative | 84.52 |
-| GBP | GMD | indicative | 97.49 |
-| GHS | GMD | indicative | 6.3 |
-| GNF | GMD | indicative | 0.0083 |
-| HKD | GMD | indicative | 9.23 |
+| CNY | GMD | indicative | 10.92 |
+| DKK | GMD | indicative | 10.8533 |
+| EGP | GMD | indicative | 1.3 |
+| EUR | GMD | indicative | 84.86 |
+| GBP | GMD | indicative | 97.27 |
+| GHS | GMD | indicative | 6.22 |
+| GNF | GMD | indicative | 0.0082 |
+| HKD | GMD | indicative | 9.28 |
 | INR | GMD | indicative | 0.76 |
-| JPY | GMD | indicative | 0.4585 |
-| KWD | GMD | indicative | 232.61 |
+| JPY | GMD | indicative | 0.4602 |
+| KWD | GMD | indicative | 233.82 |
 | LKR | GMD | indicative | 0.22 |
 | NGN | GMD | indicative | 0.05 |
-| NOK | GMD | indicative | 7.7557 |
-| NZD | GMD | indicative | 41.21 |
-| PHP | GMD | indicative | 1.13 |
-| SAR | GMD | indicative | 19.3 |
-| SEK | GMD | indicative | 7.286 |
-| SGD | GMD | indicative | 56.51 |
-| SLE | GMD | indicative | 3.22 |
-| THB | GMD | indicative | 2.14 |
-| TRY | GMD | indicative | 1.45 |
-| TWD | GMD | indicative | 2.23 |
-| USD | GMD | indicative | 72.38 |
-| XDR | GMD | indicative | 98.07 |
-| XOF | GMD | indicative | 0.128734 |
-| ZAR | GMD | indicative | 4.36 |
+| NOK | GMD | indicative | 7.854 |
+| NZD | GMD | indicative | 40.93 |
+| PHP | GMD | indicative | 1.14 |
+| SAR | GMD | indicative | 19.42 |
+| SEK | GMD | indicative | 7.3376 |
+| SGD | GMD | indicative | 56.77 |
+| SLE | GMD | indicative | 3.17 |
+| THB | GMD | indicative | 2.16 |
+| TRY | GMD | indicative | 1.46 |
+| TWD | GMD | indicative | 2.24 |
+| USD | GMD | indicative | 72.82 |
+| XDR | GMD | indicative | 98.5 |
+| XOF | GMD | indicative | 0.1271 |
+| ZAR | GMD | indicative | 4.37 |
 
 </details>
 
@@ -247,6 +247,7 @@ The Central Bank of The Gambia publishes a daily indicative rate for around 32 c
 
 - Publisher's own page: [Indicative exchange rates](https://www.cbg.gm/indicative-exchange-rates-latest) · [www.cbg.gm](https://www.cbg.gm)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of The Gambia rates page](https://allratestoday.com/central-bank-rates-api/cbg/)
+- In the API: usually by **09:20 UTC** (measured over the last 8 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
