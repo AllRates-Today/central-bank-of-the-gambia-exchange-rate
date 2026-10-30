@@ -24,65 +24,50 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Central Bank of The Gambia table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/cbg?source=USD&target=GMD"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/cbg').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Central Bank of The Gambia table](https://allratestoday.com/api/open/central-bank/cbg/table.svg)](https://allratestoday.com/central-bank-rates-api/cbg/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Central Bank of The Gambia — 32 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Central Bank of The Gambia — 32 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | GMD | indicative | 19.83 |
-| AUD | GMD | indicative | 51.24 |
-| BRL | GMD | indicative | 13.54 |
-| CAD | GMD | indicative | 51.88 |
+| AED | GMD | indicative | 19.86 |
+| AUD | GMD | indicative | 51.33 |
+| BRL | GMD | indicative | 13.52 |
+| CAD | GMD | indicative | 52.17 |
 | CHF | GMD | indicative | 89.5 |
-| CNY | GMD | indicative | 10.92 |
-| DKK | GMD | indicative | 10.8533 |
+| CNY | GMD | indicative | 10.94 |
+| DKK | GMD | indicative | 10.8922 |
 | EGP | GMD | indicative | 1.3 |
-| EUR | GMD | indicative | 84.86 |
-| GBP | GMD | indicative | 97.27 |
-| GHS | GMD | indicative | 6.22 |
+| EUR | GMD | indicative | 84.72 |
+| GBP | GMD | indicative | 97.17 |
+| GHS | GMD | indicative | 6.31 |
 | GNF | GMD | indicative | 0.0082 |
-| HKD | GMD | indicative | 9.28 |
-| INR | GMD | indicative | 0.76 |
-| JPY | GMD | indicative | 0.4602 |
-| KWD | GMD | indicative | 233.82 |
+| HKD | GMD | indicative | 9.29 |
+| INR | GMD | indicative | 0.77 |
+| JPY | GMD | indicative | 0.462 |
+| KWD | GMD | indicative | 234.31 |
 | LKR | GMD | indicative | 0.22 |
 | NGN | GMD | indicative | 0.05 |
-| NOK | GMD | indicative | 7.854 |
-| NZD | GMD | indicative | 40.93 |
+| NOK | GMD | indicative | 7.869 |
+| NZD | GMD | indicative | 41.06 |
 | PHP | GMD | indicative | 1.14 |
-| SAR | GMD | indicative | 19.42 |
-| SEK | GMD | indicative | 7.3376 |
-| SGD | GMD | indicative | 56.77 |
+| SAR | GMD | indicative | 19.45 |
+| SEK | GMD | indicative | 7.4008 |
+| SGD | GMD | indicative | 56.96 |
 | SLE | GMD | indicative | 3.17 |
 | THB | GMD | indicative | 2.16 |
 | TRY | GMD | indicative | 1.46 |
 | TWD | GMD | indicative | 2.24 |
-| USD | GMD | indicative | 72.82 |
-| XDR | GMD | indicative | 98.5 |
-| XOF | GMD | indicative | 0.1271 |
-| ZAR | GMD | indicative | 4.37 |
+| USD | GMD | indicative | 72.92 |
+| XDR | GMD | indicative | 98.58 |
+| XOF | GMD | indicative | 0.127288 |
+| ZAR | GMD | indicative | 4.39 |
 
 </details>
 
